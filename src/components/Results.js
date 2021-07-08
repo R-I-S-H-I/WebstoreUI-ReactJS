@@ -6,11 +6,13 @@ const Results = () =>{
     return(
         <div>
             <h2 className="subheading">Results</h2>
-            {products.map((product)=>{
-                return(
-                    <ProductList key={product.prodName} {...product}/>
-                )
-            })}
+            <section className="results">
+                {products.map((product)=>{
+                    return(
+                        <ProductList key={product.prodName} {...product}/>
+                    )
+                })}
+            </section>
         </div>
     );
 }

@@ -1,8 +1,11 @@
 import React from "react";
+import acoustic from '../img/acoustic_guitar.jpg'
+import electric from '../img/electric_guitar.jpg'
+
 const products = [
     {
         prodName: "Prod1",
-        prodImage: "../img/acoustic_guitar.jpg",
+        prodImage: acoustic,
         prodLink: "product.html",
         prodDesc: "Here is a shot of this product that might entice a user to click and add it to their cart.",
         originalPrice: 50,
@@ -13,7 +16,7 @@ const products = [
     },
     {
         prodName: "Prod2",
-        prodImage: "../img/acoustic_guitar.jpg",
+        prodImage: acoustic,
         prodLink: "product.html",
         prodDesc: "Here is a shot of this product that might entice a user to click and add it to their cart.",
         originalPrice: 50,
@@ -24,7 +27,7 @@ const products = [
     },
     {
         prodName: "Prod3",
-        prodImage: "../img/acoustic_guitar.jpg",
+        prodImage: acoustic,
         prodLink: "product.html",
         prodDesc: "Here is a shot of this product that might entice a user to click and add it to their cart.",
         originalPrice: 50,
@@ -35,7 +38,7 @@ const products = [
     },
     {
         prodName: "Prod4",
-        prodImage: "../img/electric_guitar.jpg",
+        prodImage: electric,
         prodLink: "product.html",
         prodDesc: "Here is a shot of this product that might entice a user to click and add it to their cart.",
         originalPrice: 50,
@@ -46,7 +49,7 @@ const products = [
     },
     {
         prodName: "Prod5",
-        prodImage: "../img/electric_guitar.jpg",
+        prodImage: electric,
         prodLink: "product.html",
         prodDesc: "Here is a shot of this product that might entice a user to click and add it to their cart.",
         originalPrice: 50,
@@ -57,7 +60,7 @@ const products = [
     },
     {
         prodName: "Prod6",
-        prodImage: "../img/electric_guitar.jpg",
+        prodImage: electric,
         prodLink: "product.html",
         prodDesc: "Here is a shot of this product that might entice a user to click and add it to their cart.",
         originalPrice: 50,
@@ -68,7 +71,7 @@ const products = [
     },
         {
         prodName: "Prod7",
-        prodImage: "../img/acoustic_guitar.jpg",
+        prodImage: acoustic,
         prodLink: "product.html",
         prodDesc: "Here is a shot of this product that might entice a user to click and add it to their cart.",
         originalPrice: 50,
@@ -79,7 +82,7 @@ const products = [
     },
         {
         prodName: "Prod8",
-        prodImage: "../img/acoustic_guitar.jpg",
+        prodImage: acoustic,
         prodLink: "product.html",
         prodDesc: "Here is a shot of this product that might entice a user to click and add it to their cart.",
         originalPrice: 50,
@@ -90,7 +93,7 @@ const products = [
     },
         {
         prodName: "Prod9",
-        prodImage: "../img/acoustic_guitar.jpg",
+        prodImage: acoustic,
         prodLink: "product.html",
         prodDesc: "Here is a shot of this product that might entice a user to click and add it to their cart.",
         originalPrice: 50,
@@ -101,7 +104,7 @@ const products = [
     },
         {
         prodName: "Prod10",
-        prodImage: "../img/electric_guitar.jpg",
+        prodImage: electric,
         prodLink: "product.html",
         prodDesc: "Here is a shot of this product that might entice a user to click and add it to their cart.",
         originalPrice: 50,
@@ -112,7 +115,7 @@ const products = [
     },
         {
         prodName: "Prod11",
-        prodImage: "../img/electric_guitar.jpg",
+        prodImage: electric,
         prodLink: "product.html",
         prodDesc: "Here is a shot of this product that might entice a user to click and add it to their cart.",
         originalPrice: 50,
@@ -123,7 +126,7 @@ const products = [
     },
         {
         prodName: "Prod12",
-        prodImage: "../img/electric_guitar.jpg",
+        prodImage: electric,
         prodLink: "product.html",
         prodDesc: "Here is a shot of this product that might entice a user to click and add it to their cart.",
         originalPrice: 50,
@@ -134,7 +137,7 @@ const products = [
     },
     {
         prodName: "Prod13",
-        prodImage: "../img/acoustic_guitar.jpg",
+        prodImage: acoustic,
         prodLink: "product.html",
         prodDesc: "Here is a shot of this product that might entice a user to click and add it to their cart.",
         originalPrice: 50,
@@ -145,7 +148,7 @@ const products = [
     },
     {
         prodName: "Prod14",
-        prodImage: "../img/acoustic_guitar.jpg",
+        prodImage: acoustic,
         prodLink: "product.html",
         prodDesc: "Here is a shot of this product that might entice a user to click and add it to their cart.",
         originalPrice: 50,
@@ -156,7 +159,7 @@ const products = [
     },
     {
         prodName: "Prod15",
-        prodImage: "../img/acoustic_guitar.jpg",
+        prodImage: acoustic,
         prodLink: "product.html",
         prodDesc: "Here is a shot of this product that might entice a user to click and add it to their cart.",
         originalPrice: 50,

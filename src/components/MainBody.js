@@ -1,6 +1,7 @@
 import React from 'react'
 import Filters from './Filters'
 import Results from './Results'
+import Pagination from './Pagination'
 
 const MainBody = () =>{
     return(
@@ -10,7 +11,7 @@ const MainBody = () =>{
             </header>
             <Filters />
             <Results />
-            {/* <Pagination /> */}
+            <Pagination />
         </main>
     )
 }

@@ -2,9 +2,9 @@ import React from 'react'
 
 const ProductList = ({prodName, prodImage, prodLink, prodDesc, originalPrice, newPrice, prodType, prodColor, rating}) =>{
     return(
-        <section className="results">
+        <div className="productCard">
         <header>
-            <img src={prodImage} alt="Product Image" />
+            <img className="imgWrapper" src={prodImage} alt="Product Image" />
             <div className="product-brief">
                 <h3>{prodName}</h3>
                 <data value={newPrice}><del>{originalPrice}</del> <ins>{newPrice}</ins></data>
@@ -27,9 +27,9 @@ const ProductList = ({prodName, prodImage, prodLink, prodDesc, originalPrice, ne
             <fieldset>
                 <legend>Guitar Type</legend>
                 <ol className="filter-list">
-                    <li><label><input type="radio" name="guitarType" value="acoustic"/> {prodType}[0]</label></li>
-                    <li><label><input type="radio" name="guitarType" value="electric"/> {prodType}[1]</label></li>
-                    <li><label><input type="radio" name="guitarType" value="semi-acoustic"/> {prodType}[2]</label></li>
+                    <li><label><input type="radio" name="guitarType" value="acoustic"/> {prodType[0]}</label></li>
+                    <li><label><input type="radio" name="guitarType" value="electric"/> {prodType[1]}</label></li>
+                    <li><label><input type="radio" name="guitarType" value="semi-acoustic"/> {prodType[2]}</label></li>
                 </ol>
             </fieldset>
         </form>
@@ -37,7 +37,7 @@ const ProductList = ({prodName, prodImage, prodLink, prodDesc, originalPrice, ne
             <button type="button"><i className="fab fa-opencart"></i></button>
             <button type="button"><i className="fas fa-heart"></i></button>
         </footer>
-        </section>
+        </div>
     );
 }
 
