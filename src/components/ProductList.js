@@ -1,4 +1,7 @@
 import React from 'react'
+import StarRateIcon from '@material-ui/icons/StarRate';
+import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
+import FavoriteIcon from '@material-ui/icons/Favorite';
 
 const ProductList = ({prodName, prodImage, prodLink, prodDesc, originalPrice, newPrice, prodType, prodColor, rating}) =>{
     return(
@@ -12,7 +15,7 @@ const ProductList = ({prodName, prodImage, prodLink, prodDesc, originalPrice, ne
             <p>{prodDesc}<a href={prodLink} target='_blank'>see more</a></p>
             <dl className="product-rating">
                 <dt>Rating: </dt>
-                <dd>{rating}<span className="material-icons">star</span><span className="material-icons">star</span><span className="material-icons">star</span><span className="material-icons">star</span><span className="material-icons">star_half</span></dd>
+                <dd>{rating}<span>{<StarRateIcon />}</span><span>{<StarRateIcon />}</span><span>{<StarRateIcon />}</span><span>{<StarRateIcon />}</span></dd>
             </dl>
         </header>
         <form className="product-choice">
@@ -34,8 +37,8 @@ const ProductList = ({prodName, prodImage, prodLink, prodDesc, originalPrice, ne
             </fieldset>
         </form>
         <footer>
-            <button type="button"><i className="fab fa-opencart"></i></button>
-            <button type="button"><i className="fas fa-heart"></i></button>
+            <button type="button">{<AddShoppingCartIcon/>}</button>
+            <button type="button">{<FavoriteIcon />}</button>
         </footer>
         </div>
     );
