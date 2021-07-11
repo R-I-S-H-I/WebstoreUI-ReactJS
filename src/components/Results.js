@@ -4,7 +4,7 @@ import products from './products.js';
 
 const Results = () =>{
     return(
-        <div>
+        <div className='resultsWrapper'>
             <h2 className="subheading">Results</h2>
             <section className="results">
                 {products.map((product)=>{
